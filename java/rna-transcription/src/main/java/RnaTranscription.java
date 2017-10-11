@@ -1,24 +1,36 @@
 class RnaTranscription {
 
-    String transcribe(String dnaStrand) {
-            String strReturn = "";
-            for (String s : dnaStrand.split("")) {
-                    switch (s) {
-                            case "G" : strReturn += "C";
-                                       break;
-                            
-                            case "C" : strReturn += "G";
-                                       break;
+        String transcribe(String dnaStrand) {
 
-                            case "T" : strReturn += "A";
-                                       break;
-                            
-                            case "A" : strReturn += "U";
-                                       break;
-                                     
-                    }
-            }
-            return strReturn;
-    }
+                String tR= "";
+
+                for (char c : dnaStrand.toCharArray()) {
+                        
+                        char chr;
+
+                        switch (c) {
+                                case 'C':
+                                        tR += 'G';
+                                        break;
+                                case 'G':
+                                        tR += 'C';
+                                        break;
+                                case 'T':
+                                        tR += 'A';
+                                        break;
+                                case 'A':
+                                        tR += 'U';
+                                        break;
+                                default:
+                                        throw new IllegalArgumentException("Invalid input");
+
+                        }
+
+                }
+
+                return tR;
+
+        }
+
 
 }
