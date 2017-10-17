@@ -1,14 +1,14 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="RnaTranscriptionTest" tests="8" failures="0" errors="0" timestamp="2017-10-12T02:33:29" hostname="d" time="0.114">
+<testsuite name="RnaTranscriptionTest" tests="8" failures="0" errors="0" timestamp="2017-10-15T17:49:37" hostname="d" time="0.141">
   <properties/>
-  <testcase name="testRnaTranscriptionOfThymineIsAdenine" classname="RnaTranscriptionTest" time="0.008"/>
+  <testcase name="testRnaTranscriptionOfThymineIsAdenine" classname="RnaTranscriptionTest" time="0.01"/>
   <testcase name="testRnaTranscription" classname="RnaTranscriptionTest" time="0.0"/>
   <testcase name="testRnaTranscriptionOfCytosineIsGuanine" classname="RnaTranscriptionTest" time="0.0"/>
   <testcase name="testRnaTranscriptionOfGuanineIsCytosine" classname="RnaTranscriptionTest" time="0.0"/>
-  <testcase name="testRnaTranscriptionOfRnaThrowsAnError" classname="RnaTranscriptionTest" time="0.061"/>
-  <testcase name="testRnaTranscriptionOfPartiallyInvalidInput" classname="RnaTranscriptionTest" time="0.004"/>
+  <testcase name="testRnaTranscriptionOfRnaThrowsAnError" classname="RnaTranscriptionTest" time="0.079"/>
+  <testcase name="testRnaTranscriptionOfPartiallyInvalidInput" classname="RnaTranscriptionTest" time="0.006"/>
   <testcase name="testRnaTranscriptionOfAdenineIsUracil" classname="RnaTranscriptionTest" time="0.004"/>
-  <testcase name="testRnaTranscriptionOfInvalidInputThrowsAnError" classname="RnaTranscriptionTest" time="0.002"/>
+  <testcase name="testRnaTranscriptionOfInvalidInputThrowsAnError" classname="RnaTranscriptionTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
